@@ -1,0 +1,29 @@
+Get a specific artist's details based on artistId
+
+Request Components:
+
+Method:GET
+URL: /artists/artistId
+Headers: none
+Body: none
+
+Response components:
+
+Status code: 200
+Headers: Content-Type: application/json
+Body: information about the specific artist
+
+Add an artist
+
+Request components:
+
+Method:POST
+URL:/artists/new
+Headers: Content-Type: application/json
+Body: {name: "Kanye West"}
+
+Response components:
+
+Status code: 201
+Headers: Content-Type: application/json
+Body: newArtist = {id: 2, name: Kanye West, album: [808s and heartbreak]}
